@@ -1,0 +1,26 @@
+.box{
+    border: 2px solid;
+    width: 50px;
+    background-color: rebeccapurple;
+    display: inline-block;
+}
+
+
+
+#box2{
+      position: fixed;
+    top: 0px;
+    bottom: 20px;
+    width: 10vh;
+}
+
+
+
+.container{
+    position: fixed;
+    background-color: aqua;
+    border: 1px solid black;
+    height: 100px;
+    position: relative;
+    
+}

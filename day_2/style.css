@@ -1,0 +1,21 @@
+h2{
+    color: black;
+    background-color: aqua;
+    font-size: 20px;
+    width: 40vw;
+    height: 10vh;
+
+}
+
+#uniqe{
+    color: red;
+    block-size: 110;
+    background-color: black;
+}
+
+.sam{
+    color: aqua;
+    width: 20vw;
+    height: 5vh;
+    background: scroll ;
+}
