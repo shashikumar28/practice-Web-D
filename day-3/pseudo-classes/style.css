@@ -1,0 +1,26 @@
+div{
+    height: 100px;
+    width: 100px;
+    color: rebeccapurple;
+    border: 10px solid black;
+    text-align: center;
+    text-decoration: dotted;
+}
+ /* div:hover{
+    cursor: pointer;
+    background-color: aquamarine;
+    text-align: center;   
+}  */
+/* input:focus{
+    font-size: 20px;
+    color: darkviolet;
+    background-color: red;
+    
+} */ 
+
+
+div:active{
+    color: red;
+    background-color: aqua;
+}
+
