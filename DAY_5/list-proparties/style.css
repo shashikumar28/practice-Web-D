@@ -1,0 +1,25 @@
+li{
+list-style: decimal ;
+/* list-style: georgian; */
+border: 1px solid black;
+list-style-position: inside;
+}
+
+
+section{
+    height: 100px;
+    width: 100px;
+    
+}
+
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aliceblue;
+    /* border-radius: 50px; */
+    border: 1px solid green;
+    border-bottom:1px solid red;
+    border-left: 1px solid black;
+    border-right: 1px solid aqua;
+}
