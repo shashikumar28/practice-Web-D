@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+
+    background-color: lightcoral;
+    display: grid;
+
+    grid-template-columns: 1fr 5fr 1fr ;
+    grid-template-rows: 1fr 5fr 5fr 1fr;
+
+    grid-template-areas:     "header header header"
+                              "nav-1 main nav-2"
+                              "nav-1 main nav-3"
+                              "footer footer footer";
+
+}
+
+
+.header{
+    background-color: lightgoldenrodyellow;
+    grid-area: header;
+
+}
+.nav-1{
+    background-color: lightgrey;
+    grid-area: nav-1;
+}
+.nav-2{
+    background-color: lightskyblue;
+    grid-area: nav-2;
+}
+
+.nav-3{
+background-color: lightyellow;
+grid-area: nav-3;
+}
+
+
+.main{
+    background-color: lightcyan;
+    grid-area: main;
+}
+
+.footer{
+    background-color: lightblue;
+    grid-area: footer;
+}

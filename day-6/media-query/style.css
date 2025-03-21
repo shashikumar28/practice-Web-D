@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: lightcyan;
+}
+
+
+div{
+    height: 500px;
+    width: 400px;
+    background-color: blue;
+    border: 2px solid black;
+    margin: 20px auto;
+}
+
+h1{
+    color: green;
+}
+
+/* @media screen and (max-widht:700px) {
+
+    h1{
+        color: blueviolet;
+    }
+    
+} */
+
+ /* @media screen and (min-width: 700px) { 
+    div, h1 {
+        color: red;  Text color 
+        border: 1px solid orange; Border color
+    }
+}  */
+
+@media screen and (max-width:900px) {
+
+    div,h1{
+        background-color: brown;
+        color: aqua;
+
+    }
+    
+}
+
+@media screen and (min-width:100px) {
+
+    h1{
+        color: black;
+    }
+    
+}
