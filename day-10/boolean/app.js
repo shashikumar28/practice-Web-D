@@ -21,6 +21,32 @@
 
 
 
+// let n1 = true;
+// let n2 = false;
+// let ans = n1/n2;
+// console.log(ans);
 
+
+// let score = 100;
+
+// let score1 = "100";
+
+// // let ans = score == 100;
+
+// let ans = score1 === 100;
+
+
+// console.log(ans)
+
+
+
+
+let sam = 10;
+
+let ku = 100;
+
+let ans = sam > ku;
+
+console.log(ans)
 
  
