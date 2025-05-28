@@ -1,63 +1,52 @@
-// let person = {
-//     // property 
-//     naam : "shashi kumar",
-//     city : "new delhi" ,
+// let todo = {
+//     name: "sahshi kumar",
+//     age: 22,
+//     city: "Nodia",
+//     collage:"Iimt",
+//     5: true,
+//     s5: 300,
+//     e5: 300
 
-//     //methods -> functions
-//     describe : function describe(){
-//         console.log("hi my name is shashi")
-//     }
 // }
+// console.log(todo['5'])//true
+// console.log(todo.city);
+// console.log(todo.age)
 
-// console.log(person);
-
-// console.log(person.naam);
-// console.log(person.city);
-// console.log(person.describe); //wrong
-// console.log(person.describe()); //right
-
-
-
-//------------------
-
-
-// let person = {
-//     name : "shashi kumar",
-//     city : "noida",
+// 1️⃣ Numbers ko kabhi keys ke roop me mat use karo
+// 2️⃣ Keys ko kabhi number se start mat karo
+// 3️⃣ Peeche se sab key string ban jati hai, aur array style se string deke hi access karo
+// 4️⃣ Galat tarike se object ko access mat karo
+// 5️⃣ Dot ya square bracket notation hi use karo
 
 
 
-//     // method -> function 
-//     describe : function describe(){
-//      describe : function desc(){
-//         describe : function(){
-//             console.log("hi my name is shashi")
-//         }
-//         } 
-        
-//         // describe(); wrong
-//         // person.describe(); right
-//         // person.desc(); wrong
-//         // desc(); wrong
-//     }
-// }
-
-
-
-//------------------
-
-let person = {
-    name : "shashi kumar",
-    city : "noida",
-    describe : function(){
-        console.log(`hi my name is shashi kumar`)
-        console.log(`hi my name is ${person.name}`)
-        console.log(`hi my name is ${this.name}`)
-        // return person;
-    }
-    
+let todo = {
+    title : "buy chocolate" , //comma seperation
+    completed : false ,
+    ande : "nahi khae" ,
+    mickeymouses : 100 
 }
-let ans = person.describe(); // by defualt undefined is returned
-// let ans = person.describe(10) // by default undefined is returend
-console.log(ans)
 
+
+// console.log(todo);
+
+// console.log(todo.ande)
+// console.log(todo['ande'])
+// console.log(todo.title)
+// console.log(todo['title'])
+
+
+// console.log(todo['completed'])
+console.log(todo.completed) //getter
+todo.completed = true; //setter 
+todo['completed'] = 'hello'; //setter 
+console.log(todo.completed)
+
+
+console.log(typeof(todo));
+
+
+//------wrong ways----------
+// console.log(todo['0'])
+// console.log(todo['1'])
+// console.log(todo.0)
