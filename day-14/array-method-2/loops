@@ -1,0 +1,46 @@
+//for(i = 1; i<=10; i++){
+// //     console.log(i)
+// // }
+
+
+// let i = 0;
+// // while(i < 10){
+//     i++;
+//     console.log(i)
+// }
+
+
+// let arr = [10,20,30,40,50];
+// for(let system of arr){
+// }
+// console.log(arr)
+
+
+// 1 for of array ke liye use hota ha 
+
+// 2 for in onj ke liye use hota ha
+let obj = {
+    english : 30,
+    math : 80,
+    hindi : 77
+}
+
+for (let system in obj){
+    console.log(system)
+    // console.log(obj[system])
+
+}
+// console.log(obj)
+// console.log(obj.english)
+// console.log(system)
+// console.log(obj[sam])
+
+
+
+// --------------------------------------------
+
+// break and continue
+
+
+
+
