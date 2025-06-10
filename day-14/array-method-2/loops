@@ -19,17 +19,17 @@
 // 1 for of array ke liye use hota ha 
 
 // 2 for in onj ke liye use hota ha
-let obj = {
-    english : 30,
-    math : 80,
-    hindi : 77
-}
+// let obj = {
+//     english : 30,
+//     math : 80,
+//     hindi : 77
+// }
 
-for (let system in obj){
-    console.log(system)
+// for (let system in obj){
+//     console.log(system)
     // console.log(obj[system])
 
-}
+//}
 // console.log(obj)
 // console.log(obj.english)
 // console.log(system)
@@ -41,6 +41,18 @@ for (let system in obj){
 
 // break and continue
 
+// for(let i = 10; i>=0; i--){
+//     if(i == 5){
+//         break;
+//     }
+//     console.log(i)
+// }
 
 
 
+for(let i = 10; i>=0; i--){
+    if(i == 5){
+        continue;
+    }
+    console.log(i)
+}
