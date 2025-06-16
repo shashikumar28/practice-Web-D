@@ -76,7 +76,7 @@ let s = 20;
 
 function b (){
     console.log(n)//ReferenceError: Cannot access 'a' before initialization
-    let  n = 10
+    let  n =  10
 }
 
 b();
