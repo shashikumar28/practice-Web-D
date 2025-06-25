@@ -4,7 +4,7 @@ function movie (){
 
 function makkhi (){
     console.log("makkhi")
-    return makkhi;
+    return  makkhi;
 }
 
 }
