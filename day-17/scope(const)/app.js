@@ -145,9 +145,10 @@ function outer (){
     // console.log(a)
 
     {
-        let a = 200
-        console.log(a)//output 200
+        let a  = 200
+        console .log(a)//output 200
     }
     console.log(a)//output 10
 }
 outer();
+//console,log(a)
