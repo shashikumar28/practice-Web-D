@@ -61,10 +61,12 @@ function User (name , umar , rang){
     //    return `my name is ${this.username}`
     // }
 
-    User.prototype.description = function(){
+   
+}
+
+ User.prototype.description = function(){
         return `my name is ${this.username}`
     }
-}
 
 let user1 = new User ("shashi" , 22 , "blue")
 console.log(user1)
