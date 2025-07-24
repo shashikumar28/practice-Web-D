@@ -19,7 +19,7 @@
 
 
 
-// function bahar (){
+// function bahar (){  
     
 
 //     andar();
@@ -153,3 +153,6 @@ function outer (){
 }
 outer();
 //console,log(a)
+
+
+console.log(40);
