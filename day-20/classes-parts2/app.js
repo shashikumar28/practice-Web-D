@@ -81,5 +81,7 @@ class Student extends Person{
 let person3 = new Student('anshika' , 22 , 73);
 console.log(person3);
 console.log(person3.printName());
-
 console.log(person3.alag()); 
+console.log(person3.getName());
+
+ 
