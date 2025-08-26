@@ -16,6 +16,11 @@
 //     return num*num;
 //  }
 
-let sqr = (num)=>  num*num
+// let sqr = (num)=>  num*num
+
+//  console.log(sqr(5))  
+
+
+let sqr = num=>  num*num
 
  console.log(sqr(5))  
