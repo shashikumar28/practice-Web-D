@@ -57,13 +57,11 @@ function step2 (image , fn){
 
 
 step1(function(image){
-step2(image , function(filter){
+ step2(image , function(filter){
     step3(filter , function(caption){
         step4(function(caption){
 
-        });
-
-    });
-
-});
+         });
+     });
+  });
 });
