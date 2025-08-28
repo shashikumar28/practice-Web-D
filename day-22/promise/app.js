@@ -12,6 +12,7 @@ mypromise
 .then(function(data){
     console.log(data);
     })
-    .catch(function(err){
+    .catch(function(err){ 
+        
         console.log(err);
     })
