@@ -52,7 +52,7 @@ function step2 (image , fn){
     console.log('upload being processing')
     setTimeout(function(){
         console.log('upload you can check the post')
-    } , 5000)
+    } , 5000);
   }
 
 
